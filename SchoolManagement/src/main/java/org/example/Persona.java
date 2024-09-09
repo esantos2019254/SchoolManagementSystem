@@ -7,9 +7,9 @@ public class Persona {
     private int id;
     private String nombre;
     private String apellido;
-    private Date fechaDeNacimiento;
+    private String fechaDeNacimiento;
 
-    public Persona(int id, String nombre, String apellido, Date fechaDeNacimiento) {
+    public Persona(int id, String nombre, String apellido, String fechaDeNacimiento) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -40,11 +40,11 @@ public class Persona {
         this.apellido = apellido;
     }
 
-    public Date getFechaDeNacimiento() {
+    public String getFechaDeNacimiento() {
         return fechaDeNacimiento;
     }
 
-    public void setFechaDeNacimiento(Date fechaDeNacimiento) {
+    public void setFechaDeNacimiento(String fechaDeNacimiento) {
         this.fechaDeNacimiento = fechaDeNacimiento;
     }
 
